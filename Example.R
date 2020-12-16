@@ -2,6 +2,8 @@
 library(igraph)
 library(cvTools)
 library(NMI)
+library(Matrix)
+library(glmnet)
 
 # create a dataset
 Data <- CreateDataSet(k=3,n=20,p=list(p_inside=0.1,p_outside=0.1))
